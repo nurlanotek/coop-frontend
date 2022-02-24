@@ -461,8 +461,9 @@ a {
   background: #89ba16;
   border-color: #89ba16; }
   .btn.btn-primary:hover {
-    background: #90c317;
-    border-color: #90c317; }
+    background: #fff;
+    border-color: #fff;
+    color: black; }
 
 .btn.btn-outline-white {
   background: transparent;
