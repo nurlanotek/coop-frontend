@@ -105,7 +105,8 @@ body {
     .btn.btn-primary:hover {
         background: #fff;
         border-color: #fff;
-        color: black; }
+        color: black; 
+    }
     .btn.btn-primary1 {
         margin-left: 50%;
     color: #fff;
@@ -114,7 +115,8 @@ body {
     .btn.btn-primary1:hover {
         background: #fff;
         border-color: #fff;
-        color: black; }
+        color: black; 
+    }
 
     .btn.btn-primary2 {
         width: 100%;
@@ -124,5 +126,6 @@ body {
         .btn.btn-primary2:hover {
             background: #fff;
             border-color: #fff;
-            color: black; }
+            color: black; 
+        }
             

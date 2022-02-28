@@ -47,14 +47,16 @@ a {
   width: 100%;
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat; 
+}
 
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
   position: absolute;
   width: 100%;
-  top: 2rem; }
+  top: 2rem; 
+}
   .site-navbar .container-fluid {
     padding-left: 7rem;
     padding-right: 7rem; }
@@ -73,9 +75,11 @@ a {
       color: #fff;
       font-size: 1.5rem;
       letter-spacing: .2rem;
-      text-transform: uppercase; }
+      text-transform: uppercase; 
+    }
       .site-navbar .site-logo a:hover {
-        text-decoration: none; }
+        text-decoration: none; 
+      }
   .site-navbar .site-burger-menu, .site-navbar .right-cta-menu {
     position: absolute;
     right: 5%; }
