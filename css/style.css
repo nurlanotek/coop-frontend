@@ -52,7 +52,6 @@ a {
 
 .site-navbar {
   margin-bottom: 0px;
-  z-index: 1999;
   position: absolute;
   width: 100%;
   top: 2rem; 
@@ -96,6 +95,7 @@ a {
       .site-navbar .site-menu-toggle {
         margin-left: 5px; } }
   .site-navbar .site-navigation {
+    background-color: white; border-radius: 20px;
     position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -105,7 +105,7 @@ a {
     .site-navbar .site-navigation .site-menu {
       margin-bottom: 0; }
       .site-navbar .site-navigation .site-menu .active {
-        color: #fff;
+        color: rgb(87, 74, 74);
         display: inline-block;
         padding: 5px 20px; }
       .site-navbar .site-navigation .site-menu a {
@@ -116,11 +116,12 @@ a {
         display: inline-block; }
         .site-navbar .site-navigation .site-menu > li > a {
           padding: 20px 20px !important;
-          color: rgba(255, 255, 255, 0.5);
+          color: #000;
           display: inline-block;
           text-decoration: none !important; }
           .site-navbar .site-navigation .site-menu > li > a:hover {
-            color: #fff; }
+            color: rgb(87, 74, 74);
+           }
       .site-navbar .site-navigation .site-menu .has-children {
         position: relative; }
         .site-navbar .site-navigation .site-menu .has-children > a {
@@ -534,9 +535,6 @@ a {
     width: 110px;
   }
 
-  body {
-    background-color:  #eee;
-  }
   .title {
    
       margin-bottom: 50px;
@@ -593,3 +591,44 @@ a {
   .btn {
     margin-top: auto;
   }
+
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #89ba16;
+}
+
+.profile-button {
+    background: #89ba16;
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #89ba16;
+}
+
+.profile-button:focus {
+    background: #89ba16;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #89ba16;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #89ba16;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #89ba16;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #89ba16;
+}
