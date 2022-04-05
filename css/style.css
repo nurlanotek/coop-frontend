@@ -484,6 +484,16 @@ a {
     background: #fff;
     color: #000; }
 
+.btn.btn-outline-white1 {
+  background: transparent;
+  border-width: 2px;
+  border-color: #fff;
+  border-radius: 50%;
+  color: #fff; }
+  .btn.btn-outline-white1:hover {
+    background: #fff;
+    color: #000; }
+
 .btn.btn-outline-primary {
   color: #89ba16; }
   .btn.btn-outline-primary:hover {
@@ -560,6 +570,9 @@ a {
       border-radius: .28571429rem;
       box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
       margin-top:20px;
+  }
+  .card-img-top {
+    height: 50%;
   }
   
   .carousel-indicators li {
@@ -657,4 +670,7 @@ a {
   width:100%;
   position:absolute;
 }
+
+
+
 
