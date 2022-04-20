@@ -1291,4 +1291,6 @@ xcustom form elements
 }
 
 
-
+#btn-back-to-top{
+  z-index: 100;
+}
